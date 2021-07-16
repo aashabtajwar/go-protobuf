@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package main;
+
+option go_package = "model/";
+
+
+message Car {
+    string brand = 1;
+    string model = 2;
+    int32 release = 3;
+}
